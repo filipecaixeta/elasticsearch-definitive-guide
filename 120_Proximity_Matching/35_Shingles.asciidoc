@@ -135,7 +135,7 @@ PUT /my_index/_mapping/my_type
                 "type": "string",
                 "fields": {
                     "shingles": {
-                        "type":     "string",
+                        "type":     "text",
                         "analyzer": "my_shingle_analyzer"
                     }
                 }
